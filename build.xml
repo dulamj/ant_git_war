@@ -19,7 +19,7 @@
 	</target>
 	
 	<target name="war" depends="compile">
-		<war destfile="/opt/playbooks/webapp/target/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
+		<war destfile="/var/lib/jenkins/workspace/ant_git_war/dist/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent"/>
 			<lib dir="WebContent/WEB-INF/lib"/>
 			<classes dir="build/classes"/>
